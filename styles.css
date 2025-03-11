@@ -1,0 +1,74 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #e3f2fd;
+}
+
+/* Contenedor principal */
+.contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #11b07b;
+}
+
+/* Título */
+h2 {
+    font-size: 22px;
+    color: #0e8c5f;
+    margin-bottom: 15px;
+}
+
+/* Etiquetas */
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs */
+input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 10px 0;
+    border: 2px solid #11b07b;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Botón */
+button {
+    background-color: #11b07b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0e8c5f;
+}
+
+/* Separador */
+hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #ddd;
+}
+
+/* Mensaje de salida */
+p {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}

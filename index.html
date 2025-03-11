@@ -1,0 +1,28 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Caracteres</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Convertidor de Caracteres</h2>
+        
+        <label>Ingresa un carácter:</label>
+        <input type="text" id="entradaCaracter" maxlength="1">
+        <button onclick="convertirAsciiBinario()">Convertir</button>
+        <p id="salidaAscii"></p>
+        <p id="salidaBinario"></p>
+        
+        <hr>
+        
+        <label>Ingresa un número binario de 8 bits:</label>
+        <input type="text" id="entradaBinaria" maxlength="8" oninput="this.value = this.value.replace(/[^0-1]/g, '')">
+        <p id="salidacaracter"></p>
+        <button onclick="convertirBinarioCaracter()">Convertir</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
